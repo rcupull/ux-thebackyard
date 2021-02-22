@@ -1,0 +1,41 @@
+{
+  "name": "ux-thebackyard",
+  "version": "0.0.3",
+  "description": "",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rcupull/ux-thebackyard.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "compile": "node scripts/compile.js"
+  },
+  "author": "Rodobaldo Cupull",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-line-awesome-svg": "^1.0.12",
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.18",
+    "@storybook/addon-essentials": "^6.1.18",
+    "@storybook/addon-links": "^6.1.18",
+    "@storybook/react": "^6.1.18",
+    "babel-loader": "^8.2.2",
+    "rimraf": "^3.0.2"
+  }
+}
